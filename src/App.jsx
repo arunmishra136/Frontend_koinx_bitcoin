@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import Header from './components/header'
+
+import Header from './components/Header'
 import Crypto from './components/Crypto'
 import Coin from './components/Coin'
 import CoinOverview from './components/Performance'
@@ -11,7 +11,7 @@ import TokenomicsPage from './components/Takenomics'
 import KoinXPage from './components/Trending'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
